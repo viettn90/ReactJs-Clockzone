@@ -67,6 +67,7 @@ function App() {
           Learn React
         </a>
         <Clock />
+        <Clock />
         
     </div>
   );
