@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
- body {
+
+body {
 	 font-family: Russo One;
 }
  body {
@@ -16,6 +17,7 @@
 	 outline: 5px solid orange;
 	 position: relative;
 	 width: 660px;
+	 height: 680px;
 	 text-align: center;
 	 background-color: #b3b3b3;
 }
@@ -51,11 +53,11 @@
 	 width: 240px;
 	 height: 272px;
 	 display: inline-block;
-	 margin: 40px 20px 0 10px;
+	 margin: 0 20px 0 10px;
 	 vertical-align: top;
 }
  .inner-container .controls-container .control {
-	 width: 100px;
+	 width: 200px;
 	 margin: auto;
 }
  .inner-container .controls-container .control p {
@@ -85,13 +87,11 @@
 	 cursor: pointer;
 }
 .inner-select, .inner-container .controls-container .control .btn-container {
-	display: grid;
+	display: contents;
 	grid-template-columns: auto auto auto;
 	cursor: pointer;
-	width: 200%;
-	height: 100px;
-	margin-left: 0px;
-	margin-top: 5px;
+	width: 200px;
+	height: auto;
 	border: 1px solid #00c7ec;
 	
 }

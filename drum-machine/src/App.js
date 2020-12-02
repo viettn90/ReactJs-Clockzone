@@ -122,7 +122,7 @@ const bankTwo = [
 ];
 
 
-const nullRecordArray = [81, 87, 69, 65, 83, 68];
+const nullRecordArray = [81, 87, 69, 65, 83, 68, 90, 88, 67];
 
 
 
