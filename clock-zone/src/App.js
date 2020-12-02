@@ -68,6 +68,7 @@ function App() {
         </a>
         <Clock />
         <Clock />
+        <Clock />
         
     </div>
   );
