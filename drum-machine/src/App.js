@@ -274,7 +274,6 @@ class App extends React.Component {
           play={this.state.play}
           record={this.state.record}
           recordArray={this.state.recordArray}
-          
         />
 
         <div className='logo'>
@@ -323,7 +322,7 @@ class App extends React.Component {
           />
         </div>
       </div>
-    );
+    )
   }
 }
 
@@ -343,4 +342,4 @@ function fireKeyboardEvent(event, keycode) {
                            : document.fireEvent(event, keyboardEvent);
   }
   
-export default App;
+export default App

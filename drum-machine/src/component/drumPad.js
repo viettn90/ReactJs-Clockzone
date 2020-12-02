@@ -16,16 +16,11 @@ const inactiveStyle = {
     boxShadow: '3px 3px 5px black'
   };
 
-
-// const recordArray = [];
-
 class DrumPad extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
         padStyle: inactiveStyle,
-        
-        
       };
       this.playSound = this.playSound.bind(this);
       this.handleKeyPress = this.handleKeyPress.bind(this);
@@ -100,9 +95,6 @@ class DrumPad extends React.Component {
               src={this.props.clip}
             />
             {this.props.keyTrigger}
-            {/* <App
-              recordArray={this.state.recordArray}
-            /> */}
           </div>
         );
     }

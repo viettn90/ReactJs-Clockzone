@@ -22,7 +22,6 @@ class PadBank extends React.Component {
               updateDisplay={this.props.updateDisplay}
               record={this.props.record}
               recordArray={this.props.recordArray}
-              
             />
           );
         });
@@ -38,14 +37,13 @@ class PadBank extends React.Component {
               updateDisplay={this.props.updateDisplay}
               record={this.props.record}
               recordArray={this.props.recordArray}
-              
             />
           );
         });
       }
       return (
         <div>
-          <div className='pad-bank'>{padBank}</div>;
+          <div className='pad-bank'>{padBank}</div>
         </div>
         
       )
